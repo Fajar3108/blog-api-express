@@ -1,11 +1,11 @@
 require('./database/conn');
 const express = require('express');
+const { APP_PORT } = require('./config');
 const app = express();
-const port = process.env.APP_PORT;
 
 app.use(express.json());
 
-app.listen(port, () => {
-    console.log(`App listening on port http://localhost:${port}`);
+app.listen(APP_PORT, () => {
+    console.log(`App listening on port http://localhost:${APP_PORT}`);
 });
 
