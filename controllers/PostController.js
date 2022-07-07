@@ -2,8 +2,12 @@ const { Post } = require('../models');
 
 const PostController = {
     index: async (req, res) => {
-        const posts = await Post.find();
-        res.json(posts);
+        try {
+            const posts = await Post.find();
+            res.json(posts);
+        } catch(error) {
+            res.status(500).json({ message: error.message });
+        }
     },
     show: async (req, res) => {
         try {
