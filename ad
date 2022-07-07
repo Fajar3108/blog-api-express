@@ -1,0 +1,83 @@
+[33mcommit a828adc963a857582b2e0c4ef8fae42f93f2c7c6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 14:15:52 2022 +0700
+
+    Add: Update post by id
+
+[33mcommit b339d90dcb666422d28e3b83b6ebf948a6b061c7[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 14:02:46 2022 +0700
+
+    Add: Add new Post
+
+[33mcommit 7594cf9ca5c75c0c162ca9bc9d6f6f0ad6f51a88[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 13:47:28 2022 +0700
+
+    Add: Get Post by ID
+
+[33mcommit b5cdf5e95a8ea634230ad5727b0c8d40e5eee06d[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 13:40:51 2022 +0700
+
+    Add: Get All Posts
+
+[33mcommit 3b9a07112191557172485895eb67d4ed17790b0f[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 13:24:05 2022 +0700
+
+    Add: Setup Router
+
+[33mcommit 407d40b11ae73b5ed5d7b053c8546b9e9de2f4cd[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:46:26 2022 +0700
+
+    Add: Cors
+
+[33mcommit 5cd2bff278d86212955227a3d78239673ab9c4ef[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:43:14 2022 +0700
+
+    Remove: routes/record.js
+
+[33mcommit 1084e78ccb9dfe01e481a2880abff812309f289d[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:38:19 2022 +0700
+
+    Edit: Database Connection with mongoose
+
+[33mcommit 05862a9e8cdb21279ffc738156998d6a4e2dc8ef[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:28:35 2022 +0700
+
+    Add: Config
+
+[33mcommit 010e10adab5bd182c36e39e7f6a5afcb2016de8d[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:25:40 2022 +0700
+
+    Add: Mongoose
+
+[33mcommit a9bc04fc7d82558b0bd3c7c39a18eaee6b132559[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 11:11:18 2022 +0700
+
+    Add: express.json() middleware
+
+[33mcommit 46af75cb25de2a7d840a671bb0c8788eee9716a4[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 10:58:54 2022 +0700
+
+    Add: Setup Router
+
+[33mcommit 1d33010951b25d467bc0c17c1243834cbc24b921[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 10:32:29 2022 +0700
+
+    Add: Database Connection
+
+[33mcommit f509082df102b96e46cd7a078ff978a10ee9b52c[m
+Author: Fajar3108 <maulanafajaribrahim@gmail.com>
+Date:   Thu Jul 7 07:38:32 2022 +0700
+
+    Init Project

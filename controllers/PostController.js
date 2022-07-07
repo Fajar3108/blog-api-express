@@ -6,8 +6,12 @@ const PostController = {
         res.json(posts);
     },
     show: async (req, res) => {
-        const post = await Post.findOne({ _id: req.params.id })
-        res.json(post);
+        try {
+            const post = await Post.findOne({ _id: req.params.id })
+            res.json(post);
+        } catch(error) {
+            res.status(404).json({ message: error.message });
+        }
     },
     store: async (req, res) => {
         try {
