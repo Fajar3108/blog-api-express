@@ -27,8 +27,6 @@ const PostController = {
         }
     },
     update: async (req, res) => {
-        const post = Post.findOne({ _id: req.params.id });
-        if (!post) res.status(404).json({ message: 'Post not found' });
         try {
             await Post.updateOne({ _id: req.params.id }, {$set: req.body}, {
                 runValidators: true,
@@ -37,7 +35,7 @@ const PostController = {
         } catch(error) {
             res.status(400).json({ message: error.message });
         }
-    }
+    },
 };
 
 module.exports = PostController;
